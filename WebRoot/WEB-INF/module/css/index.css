@@ -1,0 +1,278 @@
+@charset "utf-8";
+* html,* html body{_background-image:url(about:blank);_background-attachment:fixed; }
+body, td, th {
+	font-size: 12px;
+	color: #707070;
+	font-family:"Microsoft Yahei","宋体";
+}
+body {
+	background-color:#FFF;
+	margin: 0px;
+	padding:0px;
+}
+a {outline: none; /* for Forefox */ } 
+a {star:expression(this.onFocus=this.blur()); /* for Ie*/ } 
+a:link, a:visited {
+	text-decoration: none;
+}
+a:focus { outline-style: none; }
+input {
+    /* 屏蔽文本框高亮 */
+    outline: none;
+}
+ 
+textarea {
+    outline: none;
+    /* CSS3屏蔽文本框缩放*/
+    resize: none;
+}
+
+a {
+   color: #707070;
+}
+.green:link, .green:visited {
+	color:#62982C;
+	text-decoration:underline;
+}
+.blue:link, .blue:visited {
+	color:#0082CB;
+}
+a:hover, a:active {
+	text-decoration: underline;
+	color: #707070;
+}
+.font08c12a,.font08c12a:link,.font08c12a:visited {
+	color:#0082CB;
+	text-decoration: none;
+}
+.font08c12a:hover {
+	color:#339900;
+	text-decoration: underline;
+}
+/*login*/
+.loginbody {
+	clear: both;
+	min-height: 480px;
+	_height: 480px;
+	width: 100%;
+}
+.loginbody .loginout {
+	clear: both;
+	min-height:446px;
+	_height: 446px;
+	width: 992px;
+	margin: 0px auto;
+	/*background: url(images/loginbg.jpg) no-repeat left bottom;*/
+}
+.loginout .loginborder {
+	_height: 400px;
+	width: 383px;
+	float: right;
+	background-color: #FFF;
+	border: 1px solid #e0e0e0;
+}
+.loginborder .loginfor {
+	width: 299px;
+	margin: 0px auto;
+}
+.loginform {
+	margin: 0px;
+	padding: 0px;
+}
+.loginform label {
+	display: block;
+	clear: both;
+}
+.loginform label input.lgok,.loginform label input.lgerr {
+	background-position:left -50px;
+}
+.loginform label input.lgok0 {
+	background-position:left center;
+}
+.loginform label input.lgok,.loginform label input.lgok0,.loginform label input.lgerr {
+	margin: 0px;
+	height: 31px;
+	width: 229px;
+	padding: 0px 8px;
+	line-height: 31px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-top: 8px;
+	background-color:#F6F6F6;
+	background-repeat:no-repeat;
+	font-size: 18px;
+}
+.loginform label input.lgok{
+	
+	border: 1px solid #8DC63F;
+	background-color:#FFF;
+}
+.loginform label strong {
+	display: block;
+	width: 40px;
+	font-size: 14px;
+	font-weight: normal;
+	float: left;
+	line-height: 50px;
+}
+.loginborder .loginfor .snslogin a {
+	margin-right:5px;
+	display:inline-block;
+	margin-bottom: 8px;
+}
+/*.loginbody .loginout{background:url(../images/main_bg_0818.jpg) no-repeat 2px top;}*//*登录区背景图片*/
+.loginbody .loginout{}
+
+.loginbody .indexlogin{height:70px;background:url(../images/logintitle.jpg) no-repeat left -5px;}
+.loginbody .indexlogin_main{background-image:url(../images/loginerr.png); position:relative; left:40px; display:none; cursor:pointer; top:0px;line-height:30px; height:34px; width:218px; padding-left:29px; color:#B00000;}
+.indexlogin_kk{display:inline-block; width:415px; height:45px; background-image:url(../images/head_menurbg.jpg); float:left;}
+
+/*register*/
+
+#regmailtui {
+	position: absolute;
+	background-color:#F00;
+	left:408px;
+	top: 35px;
+	border:1px solid #ECB9AA;
+	border-top:none;
+	background-color: #F9E6D9;
+	display: none;
+	padding: 11px;
+	}
+.regbody {
+	width: 100%;
+	background-image: url(../images/regbg.png);
+	background-position: left top;
+	background-color: #ECf9Dd;
+	background-repeat: repeat-x;
+}
+.regbody .regmsgout {
+	clear: both;
+	height: 470px;
+	width: 680px;
+	margin: 0px auto;
+}
+.regmsgout .regmsgl {
+	float: left;
+	height: 470px;
+	width: 22px;
+}
+.regmsgout .regmsgm {
+	float: left;
+	height: 470px;
+	width: 634px;
+}
+.regmsgout .regmsgr {
+	float: left;
+	height: 470px;
+	width: 24px;
+}
+.regmsgm .regmsg {
+	height: 430px;
+	background-color: #FFF;
+}
+.regmsgm .regmsgt, .regmsgm .regmsgb {
+	height: 20px;
+	width: 100%;
+	clear: both;
+}
+#regform b {
+	display: none;
+}
+#regform strong {
+	font-size: 14px;
+	font-weight: normal;
+	color: #666;
+	line-height: 48px;
+	display: block;
+	text-align: right;
+	width: 140px;
+	height: 48px;
+	float: left;
+}
+#regform {
+	margin: 0px;
+	padding: 0px;
+}
+#regform label {
+	clear: both;
+	display: block;
+	position: relative;
+	width: 634px;
+}
+#regform input.ckok, #regform input.ckout, #regform input.ckerr {
+	width:237px;
+	height:33px;
+	line-height:33px;
+	padding:0px 8px;
+	margin:0px;
+	margin-left:10px;
+	font-size:16px;
+	float: left;
+	margin-top: 7px;
+	background-image: url(../images/focus.jpg);
+	font-family: Arial;
+	background-position: left top;
+	border: 0px solid #fff;
+}
+#regform input.ckerr {
+	/*background-position: left center;*/
+}
+#regform input.ckok {
+	background-position: left bottom;
+}
+#regform label span {
+	display: block;
+	float: left;
+	width: auto;
+	margin-left: 5px;
+	padding: 3px;
+	line-height: 25px;
+	border-color: #FFF;
+	border-style: solid;
+	border-width: 1px;
+	height: auto;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#regform label .tsem {
+
+	border-color: #ECECD5;
+	background-color: #FFFCEB;
+	padding: 3px 12px;
+	width:144px;
+	position:absolute;
+	display:block;
+	top:7px;
+	right:55px;
+	z-index:111;
+}
+ 
+#regform label span.tser {
+	border-color: #ECB9AA;
+	margin-top:7px;
+	background-color: #F9E6D9;
+	background-image: url(../images/tser.png);
+	padding-left: 8px;
+	padding-right:8px;
+	max-width:178px;
+	background-position:left 1px;
+	text-indent:20px;
+	color:#B00000;
+}
+#regform label span.tsok {
+	border-color: #FFF;
+	background-image: url(../images/tsok.jpg);
+	padding-left: 33px;
+	width: 162px;
+	line-height: 38px;
+	height:38px;
+}
+dd, dl, dt, ul, li, form, input {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	color: #666;
+}
