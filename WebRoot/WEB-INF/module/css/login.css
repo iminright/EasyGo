@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*登录页*/
+#menus{ background:url(../images/logo-bg.jpg) no-repeat; width:1003px;}
+.login-main{ width:1003px; margin:auto}
+.login-main1{ width:951px; height:38px; background:url(../images/zhuce1.jpg);}
+.login-main1s{ width:951px; height:38px; background:url(../images/zhuce.jpg);}
+.login-main1 p{ line-height:38px; margin-left:90px; font-family:"微软雅黑"; font-size:12px}
+.login-main2{ width:951px; background:url(../images/zhuce2.jpg)}
+.login-main3{ width:951px ; margin:auto auto 20px auto; background:url(../images/zhuce3.jpg); height:16px;}
+.blue12 a{ color:#ccc}
+
+
+/*购物车*/
+.login-main2 span{ float:left; margin-right:18px}
+.login-main1ss{ width:951px; height:35px; background:url(../images/Process_bg.jpg);}
+.login-main td div{ line-height:20px}
+.login-main1ss p{ line-height:35px; margin-left:50px; font-family:"微软雅黑"; font-size:12px}
+.login-main1ss p span{ float:left}
